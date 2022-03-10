@@ -17,4 +17,13 @@ else
         Média: $med (Ímpar)<br>
         Quadrado: $square"
 ;
+
+/*
+Outra forma de colocar if else:
+    $variável = (condição) ? (comandos quando for True) : (comandos quando for False);
+
+Depois da ? será os comandos de quando a condição for verdadeira
+Depois da : será os comandos de quando a condição for falsa
+Os comandos não precisam estar entre parênteses
+*/
 ?>
