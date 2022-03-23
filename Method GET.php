@@ -10,9 +10,9 @@ if (isset($_GET['enviar-forms'])):
     $med = ($valor1+$valor2+$valor3)/3;
 
     if (($med % 2) == 0):
-        echo "A média dos valores é: $med <br>Seu   quadrado é ".$med**2;
+        echo "A média dos valores é: $med <br>Seu quadrado é ".$med**2;
     else:
-        echo "A média dos valores é: $med <br>Sua   raiz é ".sqrt($med);
+        echo "A média dos valores é: $med <br>Sua raiz é ".sqrt($med);
     endif;
 endif;
 
