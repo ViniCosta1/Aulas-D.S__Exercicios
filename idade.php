@@ -10,18 +10,13 @@ if (isset($_GET['enviar-forms'])):
 
 
     if ($idade >= 16 and $idade < 18):
-        echo "$nome, você tem direito de voto FACULTATIVO<br>";
+        echo "$nome, você tem direito de voto FACULTATIVO, você não pode dirigir.";
     elseif ($idade >= 18 && $idade <= 65):
-        echo "$nome, seu voto é obrigatório<br>";
+        echo "$nome, seu voto é obrigatório, você pode dirigir.";
     elseif ($idade > 65):
-        echo "$nome, seu voto é facultativo<br>";
-    endif;
-
-
-    if ($idade >= 18):
-        echo "$nome, você pode dirigir";
+        echo "$nome, seu voto é facultativo, você pode dirigir.";
     else:
-        echo "$nome, você não pode dirigir";
+        echo "$nome, você é menor de idade e não tem direito nem a dirigir, nem a votar.";
     endif;
 endif;
 
