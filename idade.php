@@ -9,7 +9,7 @@ if (isset($_GET['enviar-forms'])):
     $idade = 2022 - $ano;
 
 
-    if ($idade >= 16 && $idade < 18):
+    if ($idade >= 16 and $idade < 18):
         echo "$nome, você tem direito de voto FACULTATIVO<br>";
     elseif ($idade >= 18 && $idade <= 65):
         echo "$nome, seu voto é obrigatório<br>";
